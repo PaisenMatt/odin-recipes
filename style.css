@@ -1,0 +1,90 @@
+/* color
+bg color
+font
+font size 
+image size 
+grouping ., .
+chaining ..
+descendent . .
+class .
+id #
+type
+parent child
+
+selector order (lowest to highest):
+parent child (if no specific selector on child)
+type
+class
+id 
+.# > ..
+.. and .. and .. = last ..
+*/
+
+
+
+
+
+
+body {
+	background-color: lightblue;
+	padding: 8px;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: white;
+	text-align: center;
+	font-family: arial;
+}
+
+.heading, .content{
+	background-color: #38598b;
+	color: white;
+	padding: 4px;
+}
+
+.heading {
+	border: solid 8px white;
+	
+}
+
+.content {
+	
+	margin: 0 8px 8px 8px;
+	border-bottom: solid 8px white;
+	padding-bottom: 10px;
+
+}
+
+h2 {
+	display: inline-block;
+	border-bottom: solid 2px white;
+	margin: 16px 0;
+	width: 65%;
+	padding-bottom: 8px;
+	font-size: 25px;
+	
+
+}
+
+.Lasagna, .Ramen, .Sushi-rolls{
+	
+	display: block;
+	text-decoration: none;
+	color: white;
+	width: 50%;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+
+
+	
+
+
+	
+
