@@ -1,21 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
+    margin: 0;
 }
 
 .mainContainer {
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    margin: 0 auto; 
+    margin: 20px auto; 
 }
 
 .Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 0px 15px;
     background-color: #38598b ;
     border: solid 8px white;
     margin-bottom: 10px;
@@ -29,22 +29,31 @@ body {
 .nav {
     display: flex;
     gap: 10px;
+    margin-right: 20px;
 }
 
-.ramenLink, .sushiLink, .lasagnaLink {
+/*.ramenLink, .sushiLink, .lasagnaLink {
     
-}
+}*/
 
 .mainContent {
     border: solid 8px white;
     background-color: #38598b; 
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 0px 15px;
     color: white;
 }
 
 .foodImg {
     width: 300px;
     height: auto;
-    border: solid 4px white;
+    border: solid 5px white;
+}
+
+.Header, .mainContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 6px;
 }
