@@ -20,66 +20,52 @@ id
 .. and .. and .. = last ..
 */
 
-
-
-
-
-
 body {
+	display: flex;
+	justify-content: center;
 	background-color: lightblue;
-	padding: 8px;
 }
 
 .container {
-	width: 400px;
-	margin: 0 auto;
-	margin-top: 10px;
-	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
-	font-family: arial;
-}
-
-.heading, .content{
-	background-color: #38598b;
+	min-width: 350px;
+	margin-top: 15px;
 	color: white;
-	padding: 4px;
+	background-color: #38598b;
+	border: solid 8px white;
+	font-family: Arial, Helvetica, sans-serif 
 }
 
 .heading {
-	border: solid 8px white;
-	
+    min-width: 350px;
+	border-bottom: solid 8px white;
 }
 
 .content {
-	
-	margin: 0 8px 8px 8px;
-	border-bottom: solid 8px white;
-	padding-bottom: 10px;
-
+	padding-bottom: 10px ;
 }
 
 h2 {
-	display: inline-block;
 	border-bottom: solid 2px white;
-	margin: 16px 0;
-	width: 65%;
-	padding-bottom: 8px;
+	min-width: 250px;
+	padding-bottom: 4px;
 	font-size: 25px;
-	
-
 }
 
-.Lasagna, .Ramen, .Sushi-rolls{
-	
-	display: block;
-	text-decoration: none;
+.Lasagna, .Ramen, .Sushi-rolls {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
 	color: white;
-	width: 50%;
-	margin: 0 auto;
-	padding: 5px;
-	margin-bottom: 10px;
+	text-decoration: none;
 	font-size: 15px;
 }
+
+
+
 
 
 
