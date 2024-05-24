@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #38598b ;
+    border: solid 8px white;
+    margin-bottom: 10px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.ramenLink, .sushiLink, .lasagnaLink {
+    
+}
+
+.mainContent {
+    border: solid 8px white;
+    background-color: #38598b; 
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.foodImg {
+    width: 300px;
+    height: auto;
+    border: solid 4px white;
+}
